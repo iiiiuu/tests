@@ -1,0 +1,1232 @@
+/* Стилі для мобільних пристроїв (менше 600px) */
+@media (max-width: 599px) {
+    .desktop{
+        width: 100%;
+        height:1500vw ;
+    }
+
+    img.backgroundAdd{
+        position: absolute;
+        width: 100%;
+    }
+    img.backgroundAdd:nth-child(1){
+        display: none;
+    }
+
+    img.backgroundAdd:nth-child(2){
+        display: none;
+    }
+    img.backgroundAdd:nth-child(3){
+        width: 70%;
+        left: 14%;
+        top: 264vw;
+    }
+    img.backgroundAdd:nth-child(4){
+        display: none;
+    }
+    img.backgroundAdd:nth-child(5){
+        display: none;
+    }
+    img.backgroundAdd:nth-child(6){
+        display: none;
+    }
+    img.backgroundAdd:nth-child(7){
+        display: none;
+    }
+    img.backgroundAdd:nth-child(8){
+        display: none;
+    }
+    img.backgroundAdd:nth-child(9){
+        display: none;
+    }
+    img.backgroundAdd:nth-child(10){
+        display: none;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 15vw;
+        background:none;
+        backdrop-filter: none;
+    }
+    .mobielHeader{
+        background-color: rgba(0, 0, 0, 0.8);
+        border-bottom: 0.3vw solid #393939;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap:30%;
+        z-index: 21;
+
+    }
+    .icon1{
+        display: none;
+    }
+    .mIcon1{
+        display: block;
+    }
+    .navArea{
+        top:8%;
+        align-self: center;
+        padding: 0;
+        display: none;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 98%; /* Ширина хедера */
+        height: 215vw;
+        background: rgb(0, 0, 0);
+        /* Фоновий колір */
+        flex-direction: column;
+        position: fixed;
+        z-index: 20;
+    }
+    .nav{
+        padding-top: 8%;
+        display: flex;
+        flex-direction: column;
+        background: none;
+        width: 55%;
+
+        height: 60%;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-left: 18%;
+        z-index: 23;
+    }
+    .mHeaderBack{
+        display: block;
+        position: absolute;
+        top:2.5%;
+        left:2.5%;
+        width:97%;
+        z-index: 22;
+        pointer-events: none;
+    }
+    .teleg{
+        padding-top: 5%;
+        margin-left: 9%;
+        width: 55%;
+        height: 8%;
+        display: block;
+        padding-bottom: 5%;
+    }
+    .nav-button{
+        background: none;
+        padding: 0;
+        border: none; /* Без обводки */
+        color: rgba(255, 255, 255, 1); /* Колір тексту */
+        cursor: pointer; /* Курсор при наведенні */
+        transition: background-color 0.3s; /* Анімація фону */
+        height: 8%;
+        font-size: 5vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        line-height: 1vw;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+
+    .contact-button .mButton-icon {
+        display: block;
+        background: none;
+        width: 10vw; /* Ширина іконки */
+        z-index: 22;
+        height: 10vw; /* Автоматична висота */
+        margin-left: 0.5vw; /* Відстань між іконкою та текстом */
+    }
+    header div.contactUs1 {
+        background: none;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        font-size: 3vw;
+        white-space: nowrap;
+        font-family: "Montserrat", sans-serif;
+        border-top: 0.3vw solid #393939;
+    }
+
+
+    header div.contactUs1 a.contact-button {
+        margin-top: 1.1vw;
+        font-family: "Unbounded", sans-serif;
+        background-color:  rgba(205, 252, 24, 1);
+        border: 0.5vw solid rgb(5, 0, 0);
+        border-radius: 1vw;
+        box-shadow:  1vw 1vw 0 0 rgba(155, 190, 21, 1),-1vw -1vw 0 0 rgba(143, 173, 27, 1);
+        font-size: 4vw;
+        color: black;
+        height: 50%;
+        align-self: center;
+        width:80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .meta {
+       display: none;
+    }
+
+    .something {
+        display: none;
+    }
+    .section {
+        /* Відступ, щоб не перекривати текст хедером */
+        height: auto; /* Висота може бути різною */
+    }
+    .main {
+        display: flex;
+        position: relative;
+        margin-top: 15vw;
+        height: 215vw;
+        width: 100%;
+        align-content: center;
+    }
+
+
+    .Lightning1 {
+        display: none;
+
+    }
+
+
+    .mainTitle {
+        position: absolute;
+        text-align: center;
+        align-self: center;
+        display: block;
+        height: 45vw;
+        top:3vw;
+        width: 92vw !important;
+        left:4vw !important;
+        color: #fff;
+        line-height: 12vw;
+        font-size: 7vw;
+        font-family: "Unbounded", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .plus-icon {
+        display: none;
+    }
+
+    .player-icon {
+        display: none;
+
+    }
+
+    .note {
+        display: none;
+
+    }
+
+
+    .get {
+        position: absolute;
+        text-align: center;
+        width: 63vw;
+        height: 16vw;
+        top: 45vw;
+        left: 18.5vw;
+        color: rgba(255, 255, 255, 1);
+        font-family: "Montserrat", sans-serif ;
+        font-size: 3.8vw;
+        font-weight: 200;
+        line-height: 5vw;
+
+    }
+
+    .main a.contact-button .button-icon {
+        position: initial;
+        background: none;
+        width: 10vw; /* Ширина іконки */
+        z-index: 22;
+        height: 10vw; /* Автоматична висота */
+    }
+
+    .main a.contact-button .ContatcUs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: initial;
+        height: 100%;
+        white-space: nowrap;
+        font-size: 4.5vw;
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        width: auto;
+
+    }
+
+
+    .main a.contact-button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 75vw;
+        left: 10%;
+        text-align: center;
+        width: 80%;
+        height: 10vw;
+        cursor: pointer; /* Курсор при наведенні */
+        transition: background-color 0.3s; /* Анімація фону */
+        font-family: "Unbounded", sans-serif;
+        background-color:  rgba(205, 252, 24, 1);
+        border: 0.5vw solid rgb(5, 0, 0);
+        border-radius: 1vw;
+        box-shadow:  1vw 1vw 0 0 rgba(155, 190, 21, 1),-1vw -1vw 0 0 rgba(143, 173, 27, 1);
+        color: black;
+    }
+
+    .mGraf{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        position: absolute;
+        width: 100%;
+
+        top: 100vw;
+        height: 90vw;
+    }
+    .graf {
+        display: none;
+
+    }
+
+    .AboutBlock {
+        height: 115vw;
+        position: absolute;
+        top: 215vw;
+        width: 100%;
+    }
+    .point {
+       display: none;
+    }
+
+    .aboutUs {
+        position: absolute;
+        left: 30vw;
+        width: 40vw;
+        font-family: "Unbounded", sans-serif;
+        font-size: 7vw;
+        font-weight: 400;
+        line-height: 4.42vw;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+        white-space: nowrap;
+
+    }
+
+    .flex{
+        position: absolute;
+        width: 80%;
+        left:10%;
+        top:20vw;
+        height: 100vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        font-size: 4vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        line-height: 5vw;
+        color: rgba(142, 141, 145, 1);
+
+    }
+
+    .AboutBlock .flex-items:nth-child(1) {
+        width: 100%;
+        height: 40vw;
+        display: block;
+
+    }
+    .people-icon {
+        height: 12vw;
+        width: 12vw;
+    }
+    .product-icon{
+        height: 12vw;
+        width: 12vw;
+    }
+    .AboutBlock .flex-items:nth-child(2) {
+        height: 40vw;
+        width: 100%;
+
+    }
+
+    .aboutText {
+        position: relative;
+        margin-top: 3vw;
+    }
+
+
+    .AdvantagesBlock {
+        overflow: hidden;
+        height: 340vw;
+        position: absolute;
+        width: 100%;
+        align-content: center;
+        top: 330vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 0.9vw;
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.5vw;
+        color: rgba(142, 141, 145, 1);
+        gap: 2.7%;
+    }
+
+
+    .AdvantagesBlock .ALine {
+        position: absolute;
+        width: 200%;
+        height: 12vw;
+        left: -50%;
+        top: 0;
+        min-width: 0;
+    }
+
+    .AdvantagesBlock .title {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        width: 80%;
+        height: 15vw;
+        position: absolute;
+        top: 16vw;
+        left: 10%;
+        font-family: "Unbounded", sans-serif;
+        font-size: 7vw;
+        font-weight: 400;
+        line-height: 4.4vw;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+
+    }
+
+    .AdvantagesBlock .overlay {
+        position: absolute;
+        top: 34vw;
+        left: 6%;
+        width: 78%;
+        height: 14vw;
+        font-family: "Unbounded", sans-serif;
+        font-size: 4vw;
+        font-weight: 200;
+        letter-spacing: 0;
+        line-height: 6vw;
+        text-align: left;
+
+        background: linear-gradient(90deg, #67666A 0%, #C3C1C9 30%); /* Градієнт */
+        -webkit-background-clip: text; /* Кліп для фону в WebKit браузерах */
+        background-clip: text; /* Кліп для фону */
+        color: transparent;
+
+        border: 0.033vw solid rgba(205, 252, 24, 1);
+        border-radius: 30vw;
+        padding: 5vw 3vw 3vw 5vw;
+    }
+    .oAdd{
+        left: 6%;
+        width: 78%;
+        font-size: 3.5vw !important;
+        padding: 4vw 2vw 2vw 4vw;
+    }
+    .fire{
+        position:absolute; width:  17%; right: 2.5%; top:15%
+    }
+    .fire2{
+        position:absolute; width:  17%; right: 2.5%; top:15%
+    }
+    .point2{
+        position: absolute;
+        width: 0.7vw;
+        height: 0.6vw;
+        top: 4.02vw;
+    }
+
+    .aboutText {
+        position: relative;
+        margin-top: 0.8vw;
+
+    }
+
+    .frame14494 {
+
+        position: absolute;
+        top: 70vw;
+        display: flex;
+        animation: slide 12s linear infinite;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 20vw;
+        width: calc(100% * 2); /* Подвійна ширина, щоб вмістити копії */
+        left: 0;
+    }
+
+
+
+    @keyframes slide {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-109%); /* Зміщення на 50% для безперервності */
+        }
+    }
+    .dHidden{
+         display: block;
+             margin-right: 4%;
+             height:20vw;
+             width: 32%;
+     }
+    .frame14494 img {
+        margin-right:4%;
+        height:20vw;
+        width: 32%;
+    }
+
+    .frame14494 img:nth-child(6) {
+        margin-right: 4%;
+        height: 10vw;
+        width: 96%;
+    }
+
+    .frame14494 img:nth-child(12) {
+        margin-right: 4%;
+        height: 10vw;
+        width: 96%;
+    }
+
+
+
+
+    .offers {
+        position: absolute;
+        top: 110vw;
+        height: 210vw;
+        width: 80%;
+        left: 10%;
+    }
+
+    .offers div.offer {
+        position: absolute;
+        width: 85%;
+        height: 22%;
+        margin-right: 2%;
+        padding: 8%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        z-index: 15;
+        background-color: rgba(0, 0, 0, 0.01);
+    }
+
+    .offers div.offer:nth-child(1) {
+        top:0;
+        left: 0;
+    }
+    .offers div.offer:nth-child(2) {
+        top:0;
+        left: 0;
+    }
+    .offers div.border1:nth-child(3) {
+        position: absolute;
+        top:0 ;
+        left: 0 ;
+        width: 85% ;
+        height: 27% ;
+        padding: 2% ;
+        background:linear-gradient(95.29deg, #CDFC18 0.95%, rgba(122, 150, 14, 0) 78.21%);
+        z-index: 12;
+        border-radius: 3vw;
+    }
+    .offers div.blackSquarer1:nth-child(4) {
+        position: absolute;
+        top: 0.3%;
+        left:0.7% ;
+        width: 84% ;
+        height: 26.4% ;
+        padding: 2% ;
+        background: #000000;
+        z-index: 13;
+        border-radius: 3vw;
+    }
+    .offers div.offer:nth-child(5) {
+
+        top: 70vw;
+        left: 0;
+
+    }
+    .offers div.offer:nth-child(6) {
+        top: 70vw;
+        left: 0;
+
+    }
+    .offers div.border1:nth-child(7) {
+        position: absolute;
+        top: 70vw;
+        right: 0;
+        width: 85%;
+        height: 24%;
+        padding: 2%;
+        background: linear-gradient(268.51deg, #CDFC18 -14.01%, rgba(122, 150, 14, 0) 70.82%);
+        z-index: 12;
+        border-radius: 3vw;
+    }
+
+
+
+    .offers div.blackSquarer1:nth-child(8) {
+        position: absolute;
+        top: 70.5vw;
+        right: 0.7%;
+        width: 84%;
+        height: 23.5%;
+        padding: 2%;
+        background: #000000;;
+        z-index: 13;
+        border-radius: 3vw;
+    }
+
+
+
+
+    .offers div.offer:nth-child(9) {
+        top:133vw;
+        left: 0;
+    }
+    .offers div.offer:nth-child(10) {
+        top:133vw;
+        left: 0;
+    }
+
+    .offers div.border1:nth-child(11) {
+        position: absolute;
+        top:133vw;
+        left: 0;
+        width: 85%;
+        height: 27%;
+        padding: 2%;
+        background: linear-gradient(105deg, #CDFC18 -4%, rgba(122, 150, 14, 0) 58.21%);
+        z-index: 12;
+        border-radius: 3vw;
+    }
+    .offers div.blackSquarer1:nth-child(12) {
+        position: absolute;
+        top:133.3vw;
+        left: 0.7%;
+        width: 84%;
+        height: 26.6%;
+        padding: 2%;
+        background: #000000;
+        z-index: 13;
+        border-radius: 3vw;
+    }
+
+
+    .offers div.offer img {
+        width: 15vw;
+        height: 15vw;
+        padding: 0;
+        margin: 0;
+        position: relative;
+
+    }
+
+    .offers div.offer div.offerTitle {
+        font-size: 3.5vw;
+        height: 15vw;
+        line-height: 4.5vw;
+        font-family: "Unbounded", sans-serif;
+        font-weight: 200;
+        color:rgba(255, 255, 255, 1);
+        text-align: left;
+        padding: 2vw 0;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .offers div.offer div.offerText {
+
+        font-size: 3.5vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 300;
+        text-align: left;
+        line-height: 4.5vw;
+        color: rgba(142, 141, 145, 1);
+        height: 15vw;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .Verticals{
+        position: absolute;
+        top: 660vw;
+        height: 600vw;
+        width: 80%;
+        left: 10%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .Verticals svg.ALine {
+        position: absolute;
+        width: 200%;
+        height: 12vw;
+        left: -50%;
+        top: 0;
+        min-width: 0;
+    }
+
+    .Verticals div.vtitle {
+        position: absolute;
+        top:20vw;
+        font-family: "Unbounded", sans-serif;
+        font-size: 6vw;
+        font-weight: 400;
+        line-height: 7vw;
+        letter-spacing: -0.1vw;
+        text-align: center;
+        color:rgba(255, 255, 255, 1);
+        padding: 2.8vw;
+
+
+    }
+
+    .Verticals div.tableContainer {
+        width: 100%;
+        height: 82%;
+        position: absolute;
+        top:55vw;
+        left:0;
+        background: rgba(0, 0, 0, 0);
+    }
+
+    .Verticals table {
+        top:0.15%;
+        left: 0;
+        width: 98%;
+        height: 99.7%;
+        position: absolute;
+        background: rgba(0, 0, 0, 0);
+        backdrop-filter: blur(0.6px);
+        z-index: 15;
+        border-radius: 3vw;
+
+    }
+
+    .Verticals div.blackSquarer{
+        top:0.05%;
+        left:0;
+        z-index: 8;
+        width: 99.5%;
+        height: 99.90%;
+        content: '';
+        position: absolute;
+        background: rgb(0, 0, 0);
+        border-radius: 3vw;
+
+    }
+
+    .Verticals div.border{
+        top:0;
+        left: 0;
+        z-index: 3;
+        width: 100%;
+        height: 100%;
+        content: '';
+        position: absolute;
+        border-radius: 3vw;
+        background: linear-gradient(91deg, rgba(244, 10, 10, 0) 47.2%, rgb(205, 252, 24) 69.63%);
+    }
+
+
+    .line{
+        display: none;
+    }
+    .mLine{
+        display: block;
+        width: 90%;
+        height: 4vw;
+        margin: 0 5%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .Verticals table tbody{
+        position: relative;
+        width: 100%;
+        padding: 0;
+        z-index: 15;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0);
+    }
+    .Verticals table tr{
+        display: flex;
+        flex-direction: column; ;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        height: 160vw;
+        width: 100%;
+    }
+
+
+    .Verticals table tr td{
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        height: 80vw;
+        width: 90%;
+        position: relative;
+        text-align: left;
+        padding-right: 3vw;
+    }
+
+    .Verticals table tr td div.iconAndName{
+        align-self: start;
+        display: flex;
+        flex-direction: column;
+        height: 40vw;
+        align-items: flex-start;
+        margin-top: 5vw;
+        margin-left: 5vw;
+    }
+    .Verticals table tr td div.iconAndName img {
+        width: 20vw;
+        height: 20vw;
+    }
+    .Verticals table tr td div.iconAndName div{
+        height: 15vw;
+        display: flex;
+        align-items: center;
+        font-family: "Unbounded", sans-serif;
+        font-size: 5vw;
+        font-weight: 400;
+        line-height: 3.5vw;
+        text-align: left;
+        padding: 1.13vw;
+
+    }
+    .Verticals table tr td div.vText{
+        align-items: center;
+        height: 30vw;
+        width: 80%;
+        font-family: "Montserrat", sans-serif;
+        font-size: 4vw;
+        font-weight: 400;
+        line-height: 5vw;
+        text-align: left;
+        color: rgba(142, 141, 145, 1);
+        white-space: wrap;
+        margin-left: 5vw;
+    }
+
+
+
+
+    .Cases{
+        overflow: hidden;
+
+        position: absolute;
+        top: 1220vw;
+        width: 90%;
+        height: 120vw;
+        left:5%
+    }
+    .titleAndLine{
+        font-family: "Unbounded", sans-serif;
+        height: 15vw;
+        width: 100%;
+        font-size: 6vw;
+        display: flex;
+        align-self: center;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .casesTitle{
+        position: absolute;
+        text-align: center;
+        height: 10vw;
+        width: 50%;
+        left:25%;
+        white-space: none;
+    }
+    .casesLine1{
+        position: absolute;
+        width: 25%;
+        height: 10vw;
+        left: 0;
+    }
+    .casesLine2{
+        position: absolute;
+        width: 25%;
+        height: 10vw;
+        right: 0;
+    }
+    .requestText{
+        position: absolute;
+        top:15vw;
+        width: 60%;
+        left:20%;
+        font-family: "Montserrat", sans-serif;
+        font-size: 4vw;
+        font-weight: 400;
+        line-height: 5vw;
+        text-align: center;
+        color: rgba(142, 141, 145, 1);
+    }
+
+
+
+    .gallery {
+        position: absolute;
+        top: 28vw;
+        width: 100%;
+        height: 100vw;
+        display: flex;
+        gap:0;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .thumbnail {
+        cursor: pointer; /* Показує, що елемент клікабельний */
+        border-radius: 8px; /* Закруглені кути */
+        overflow: hidden; /* Сховати все, що виходить за межі */
+        width: 30%;
+        height: 20vw;
+    }
+
+    .thumbnail img {
+        width: 100%; /* Ширина мініатюри */
+        height: auto; /* Автоматична висота */
+        border-radius: 8px; /* Закруглені кути для зображень */
+        transition: transform 0.3s; /* Анімація трансформації */
+    }
+
+    .modal {
+        display: none; /* Сховує модальне вікно за замовчуванням */
+        position: fixed;
+        top: 0;
+        left: -5%;
+        width: 110%;
+        height: 110%;
+        background-color: rgba(0, 0, 0, 0.8); /* Напівпрозорий фон */
+        justify-content: center;
+        align-items: center;
+        z-index:30;
+
+    }
+
+    .modal-content {
+        max-width: 80%; /* Максимальна ширина зображення */
+        max-height: 80%; /* Максимальна висота зображення */
+        transform: scale(0);/* Початковий розмір зображення */
+        transition: transform 0.5s ease; /* Анімація при зміні розміру */
+        z-index:29;
+    }
+
+    .d{
+        display: none;
+    }
+    .reviewSlider {
+        display: block;
+        position: relative;
+        max-width: 80%;
+        left: 10%;
+        height:70%;
+        overflow: hidden;
+        border-radius: 2.3vw;
+        z-index: 2;
+    }
+
+    .reviewSlider-wrapper {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        transition: transform 0.5s ease;
+
+
+    }
+
+
+    .reviewSlide{
+        height: 100%;
+        width: 100%;
+
+
+
+    }
+    .reviewSlide {
+        min-width: 100%;
+    }
+    .reviewSlide img {
+        align-self: center;
+        width: 80%;
+        height: 80%;
+        border-radius: 10px;
+        padding: 10%;
+    }
+
+    button {
+        position: absolute;
+        top:48%;
+        width: 8vw;
+        height: 8vw;
+        background-color: rgba(205, 252, 24, 1);
+        color: #000000;
+        border: none;
+        padding: 2.3vw;
+        cursor: pointer;
+        border-radius: 10vw;
+        z-index: 10;
+    }
+
+    .reviewPrev {
+        display: block;
+        left: 2%;
+    }
+
+    .reviewNext {
+        display: block;
+        right: 2%;
+    }
+
+
+
+
+
+
+    .realContactUs{
+        overflow: hidden;
+        position: absolute;
+        top:1350vw;
+        display: flex;
+        width: 80%;
+        left:10%;
+        flex-direction: column;
+        justify-content: flex-start;
+        height:auto;
+        gap:10%
+    }
+
+    .realContactUs div.RCText{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: 50vw;
+    }
+
+    .realContactUs div.RCText div.title{
+        font-family: "Unbounded", sans-serif;
+        font-size: 5vw;
+        font-weight: 300;
+        line-height: 7vw;
+        text-align: left;
+        width: 90%;
+
+    }
+
+    .realContactUs div.RCText .sigh{
+    display: none;
+    }
+
+    .realContactUs div.RCText div.text {
+        font-family: "Montserrat", sans-serif;
+        font-size: 3vw;
+        font-weight: 400;
+        line-height: 5vw;
+        text-align: left;
+        color: rgba(142, 141, 145, 1);
+        width: 90%;
+    }
+
+
+
+
+    .realContactUs form{
+        margin-top: 10vw;
+        border: 0.5vw solid rgba(205, 252, 24, 1);
+        width: 86%;
+        height: auto;
+        background-color: #000;
+        padding: 5vw;
+        border-radius: 7vw;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .realContactUs form h2{
+        font-weight: 600;
+        font-size: 4.5vw;
+        font-family: "Montserrat", sans-serif;
+        color: rgba(255, 255, 255, 1);
+        align-self: start;
+        margin-bottom: 4.5vw;
+    }
+
+    .realContactUs form h2:nth-child(1){
+        margin-top:1.56vw;
+    }
+    .realContactUs form label input{
+        background-color: transparent;
+        padding: 1% 5% ;
+        font-family: "Montserrat", sans-serif;
+        height: 14vw;
+        font-size: 3.5vw;
+        font-weight: 400;
+        border:  0.3vw solid rgba(208, 208, 208, 0.08);
+        border-radius: 2vw;
+        width: 90%;
+        color:rgba(208, 208, 208, 1);
+
+    }
+
+    .realContactUs form label:nth-child(5){
+        border:  0.3vw solid rgba(205, 252, 24, 1);
+        border-radius:  2vw;
+    }
+    .realContactUs form label:nth-child(5) input{
+        color:rgba(205, 252, 24, 1);
+    }
+
+
+    .realContactUs form button{
+        position: relative;
+        margin-top: 6vw;
+        margin-bottom: 4.1vw;
+        font-family: "Unbounded", sans-serif;
+        background-color:  rgba(205, 252, 24, 1);
+        border: 0.2vw solid rgb(5, 0, 0);
+        border-radius: 0.6vw;
+        box-shadow:  1.5vw 1.5vw 0 0 rgba(155, 190, 21, 1),-1.3vw -1.3vw 0 0 rgba(143, 173, 27, 1);
+        font-size: 4vw;
+        color: black;
+        height: 15vw;
+        align-self: center;
+        width:90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .formBnSing{
+        width: 10vw ;height: 10vw;
+    }
+
+
+
+
+
+
+    footer{
+        overflow: hidden;
+        position: absolute;
+        top:1540vw;
+        width: 100%;
+        height: auto;
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
+
+    footer div.flex-box{
+        position: relative;
+        left:13%;
+        height: 48vw;
+        width:74%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    footer div.flex-box div.flex-item{
+        display: flex;
+        margin-left: 5%;
+        width: 90%;
+        height: 16vw;
+        flex-direction: row;
+        font-family: "Unbounded", sans-serif;
+        font-size: 6vw;
+        align-items: center;
+        font-weight: 200;
+
+    }
+
+    footer div.flex-box div.flex-item:nth-child(1){
+        justify-content: center;
+        order: 2;
+    }
+
+    footer div.flex-box div.flex-item:nth-child(2){
+        justify-content: center;
+        order: 1;
+    }
+    .footerSing{
+        width: 70%;
+        height: 70%;
+    }
+    footer div.flex-box div.flex-item:nth-child(3){
+        order: 3;
+        justify-content: center;
+        gap:0.75vw;
+    }
+    .footerTeleg{
+        margin-left: 3vw;
+        width: 12vw;
+        height: 12vw;
+    }
+
+
+}
